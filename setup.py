@@ -31,9 +31,9 @@ requirements = [
 
 extra_requirements = {
     'dev': ['pytest>=3.3.1', 'pytest-cov', 'pytest-mock', 'pylint', 'mypy>=0.670', 'black'],
-    'rtd': ['docutils==0.19', 'ipykernel==6.16.1', 'jinja2==3.1.2', 'mthree==1.1.0', 'nbsphinx==0.8.10',
-            'pybind11==2.10.1', 'pygments==2.13.0', 'pygments-github-lexers==0.0.5', 'sphinxcontrib-bibtex==2.5.0',
-            'sphinx-automodapi==0.14.1', 'xanadu-sphinx-theme==0.3.3'],
+    'rtd': ['docutils==0.19', 'ipykernel==6.21.1', 'jinja2==3.1.2', 'mthree==2.0.0', 'nbsphinx==0.8.12',
+            'pybind11==2.10.3', 'pygments==2.14.0', 'pygments-github-lexers==0.0.5', 'sphinxcontrib-bibtex==2.5.0',
+            'sphinx-automodapi==0.14.1', 'xanadu-sphinx-theme==0.3.6'],
 }
 
 devices_list = [
@@ -85,7 +85,6 @@ classifiers = [
     "Operating System :: Microsoft :: Windows",
     "Programming Language :: Python",
     'Programming Language :: Python :: 3',
-    'Programming Language :: Python :: 3.7',
     'Programming Language :: Python :: 3.8',
     'Programming Language :: Python :: 3.9',
     'Programming Language :: Python :: 3.10',
